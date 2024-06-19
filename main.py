@@ -81,10 +81,10 @@ def bfs_search(image, start, end, binary):
 
     return path
 
-class MazeSolverApp:
+class EvacuationRouteApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Maze Solver App")
+        self.root.title("Evacuation Route App")
 
         self.image_path = None
         self.image = None
@@ -157,7 +157,7 @@ class MazeSolverApp:
 
 def main():
     root = Tk()
-    app = MazeSolverApp(root)
+    app = EvacuationRouteApp(root)
     root.mainloop()
 
 if __name__ == "__main__":
